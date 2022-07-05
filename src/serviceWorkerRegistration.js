@@ -68,10 +68,7 @@ function registerValidSW(swUrl, config) {
               // but the previous service worker will still serve the older
               // content until all client tabs are closed.
 
-              // Service Worker for Xtremepush
-              decodeURIComponent(
-                window.location.search.substring(window.location.search.indexOf('ref=')+4)
-              );
+            
 
               console.log(
                 'New content is available and will be used when all ' +
