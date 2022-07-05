@@ -69,9 +69,10 @@ function registerValidSW(swUrl, config) {
               // content until all client tabs are closed.
 
               // Service Worker for Xtremepush
-              importScripts(decodeURIComponent(
-                location.search.substring(location.search.indexOf('ref=')+4)
-              ));
+              decodeURIComponent(
+                window.location.search.substring(window.location.search.indexOf('ref=')+4)
+              );
+
               console.log(
                 'New content is available and will be used when all ' +
                   'tabs for this page are closed. See https://cra.link/PWA.'
