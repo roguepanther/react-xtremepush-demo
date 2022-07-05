@@ -7,6 +7,7 @@ function App() {
       <header className="App-header">
       <h1> Xtremepush React Demo </h1>
       <p> This is a sandbox for ReactJS with Xtremepush </p> 
+      <p> Check console for logs </p>
       </header>
     </div>
   );
